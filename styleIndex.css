@@ -28,12 +28,19 @@ body {
   width: 350px;
 }
 
+.styleCurrentJob {
+  color: #ebeae6;
+  background-color: #737373;
+  width: 200px;
+}
+
 @media screen and (max-width: 768px) {
   .sizeImg {
     width: calc(22vw + 60px);
   }
 
-  .styleEXP {
+  .styleEXP,
+  .styleCurrentJob {
     width: fit-content;
   }
 
