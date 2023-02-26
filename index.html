@@ -295,7 +295,7 @@
   const elements = document.querySelectorAll("[id='expBody']");
   $(document).ready(function () {
     if (window.innerWidth < 768) {
-      $("#containerID").removeClass("p-5");
+      $("#containerID").removeClass("p-5 my-5");
       $("#removeBorder").removeClass("border");
       elements.forEach((element) => {
         element.classList.remove("mx-5");
@@ -308,7 +308,7 @@
 
   $(window).resize(function () {
     if (window.innerWidth < 768) {
-      $("#containerID").removeClass("p-5");
+      $("#containerID").removeClass("p-5 my-5");
       $("#removeBorder").removeClass("border");
       elements.forEach((element) => {
         element.classList.remove("mx-5");
@@ -317,7 +317,7 @@
       $("#skillForPC").addClass("visually-hidden");
       $("#skillForMobile").removeClass("visually-hidden");
     } else {
-      $("#containerID").addClass("p-5");
+      $("#containerID").addClass("p-5 my-5");
       $("#removeBorder").addClass("border");
       elements.forEach((element) => {
         element.classList.add("mx-5");
